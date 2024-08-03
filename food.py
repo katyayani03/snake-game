@@ -11,6 +11,7 @@ class Food(Turtle):
         self.penup()
         self.refresh()
 
+    #make the food appear at random positions
     def refresh(self):
         rand_x = random.randint(-270, 270)
         rand_y = random.randint(-270, 270)
